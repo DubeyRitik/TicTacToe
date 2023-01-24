@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.game {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gameBtn {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(222, 170, 194);
+  margin: 5px;
+}
