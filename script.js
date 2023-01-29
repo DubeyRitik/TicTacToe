@@ -53,7 +53,7 @@ items.forEach((item) => {
         event.target.style.backgroundColor = "red";
       } else {
         event.target.innerHTML = "O";
-        event.target.style.backgroundColor = "green";
+        event.target.style.backgroundColor = "yellow";
       }
       turn = !turn;
       check();
